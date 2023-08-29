@@ -1,0 +1,151 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(z.jpeg);
+
+
+
+    /* background-size: 2650px; */
+        background-size: 1530px;
+        background-position-x: 10px;
+        
+}
+b{
+    color: black;
+    font-size: xx-large;
+    font-stretch:wider;
+}
+hr{
+   height:2px;
+   background-color: black;
+   border: none;
+}
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.left img {
+    width: 136px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display:block;
+    width: 49%;
+    height: 40%;
+    margin: 29px auto;
+    padding:0px 250px 0px 310px;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 44px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+.a input{
+    margin-top: 3%;
+    height: 32px;
+    width: 410px;
+}
+.navbar {
+    display: inline-block;
+    height: 15px;
+}
+
+.navbar li {
+    display:inline-block;
+    font-size: 28px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 23px;
+
+}
+
+.navbar li a:hover
+ {
+    text-decoration:underline;
+    color:firebrick;
+    
+
+}
+.navbar li a.active{
+    color:firebrick;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 8px;
+    background-color:darkslategrey;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(233, 79, 79);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 60px 0px 0px 77px;
+    padding: 27px;
+    width: 25%;
+    height: 5%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-size:20px;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 54%;
+    margin: 30px auto;
+}
+.a ion-icon{
+    margin-bottom: -5px;
+    margin-left: -30px;
+    color: black;    
+}
+
+.right ion-icon{
+ color: black;
+ font-size: 25px;
+ margin-bottom: -5px;
+}
